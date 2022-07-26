@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class accountCreationDetails {
 
 	//1. create object of webdriver
-	WebDriver ldriver;
+	WebDriver ldriver;//non static variable
 
 	//constructor
 	public accountCreationDetails(WebDriver rdriver)

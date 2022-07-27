@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class OrderAddressPage {
 
-	WebDriver ldriver;//sa
+	WebDriver ldriver;
 
 	//2. Create constructor
 	public OrderAddressPage(WebDriver rdriver)

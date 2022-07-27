@@ -6,6 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.mystore.testcases.TC_MyAccountPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifySignOut"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.TC_MyAccountPageTest -->
       <class name="com.mystore.testcases.TC_ProductPageTest">
         <methods>
           <include name="tearDown"/>
@@ -15,13 +22,6 @@
           <include name="VerifyBuyProduct"/>
         </methods>
       </class> <!-- com.mystore.testcases.TC_ProductPageTest -->
-      <class name="com.mystore.testcases.TC_MyAccountPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="VerifySignOut"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.TC_MyAccountPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
